@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="font-display text-2xl font-bold text-white tracking-tight inline-block mb-6">
-              NEXUS<span className="text-[#FFB800]">.</span>
+              NPS<span className="text-[#FFB800]">.</span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed max-w-sm mb-8">
               A strategic execution partner at the intersection of technology and creativity. We engineer digital systems and elevate brands.
@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">
-            &copy; {currentYear} Nexus Creative Systems. All rights reserved.
+            &copy; {currentYear} Not Perfect Solutions. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/sitemap.xml" className="text-white/30 text-xs hover:text-white/50 transition-colors">
