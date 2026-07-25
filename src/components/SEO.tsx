@@ -90,7 +90,7 @@ export const organizationSchema = {
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Not Perfect Solutions,
+  name: 'Not Perfect Solutions',
   url: siteUrl,
   potentialAction: {
     '@type': 'SearchAction',
