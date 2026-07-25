@@ -47,8 +47,8 @@ export default function Contact() {
     <>
       <SEO
         title="Contact"
-        description="Ready to engineer and elevate? Get in touch with Nexus Creative Systems to discuss your project."
-        keywords="contact nexus creative, start project, get quote, hire agency, software development quote"
+        description="Ready to engineer and elevate? Get in touch with Not Perfect Solutionss to discuss your project."
+        keywords="contact not perfect solutions, start project, get quote, hire agency, software development quote"
         structuredData={organizationSchema}
       />
 
@@ -68,8 +68,8 @@ export default function Contact() {
               <div className="space-y-8 mb-12">
                 <div>
                   <span className="text-white/30 text-xs tracking-[0.2em] uppercase block mb-2">Email</span>
-                  <a href="mailto:hello@nexuscreative.systems" className="text-white hover:text-[#FFB800] transition-colors text-lg">
-                    hello@nexuscreative.systems
+                  <a href="mailto:info@notperfectsolutions.com" className="text-white hover:text-[#FFB800] transition-colors text-lg">
+                    info@notperfectsolutions.com
                   </a>
                 </div>
                 <div>
