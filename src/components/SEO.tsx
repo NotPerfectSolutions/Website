@@ -10,7 +10,7 @@ interface SEOProps {
   structuredData?: Record<string, unknown>;
 }
 
-const siteUrl = 'https://nexuscreative.systems';
+const siteUrl = 'https://notperfectsolutions.com';
 
 export default function SEO({
   title,
@@ -21,9 +21,9 @@ export default function SEO({
   type = 'website',
   structuredData,
 }: SEOProps) {
-  const fullTitle = title === 'Nexus Creative Systems'
+  const fullTitle = title === 'Not Perfect Solutions'
     ? title
-    : `${title} | Nexus Creative Systems`;
+    : `${title} | Not Perfect Solutions`;
   
   const fullImage = image.startsWith('http') ? image : `${siteUrl}${image}`;
 
@@ -32,7 +32,7 @@ export default function SEO({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
-      <meta name="author" content="Nexus Creative Systems" />
+      <meta name="author" content="Not Perfect Solutions" />
       <link rel="canonical" href={url} />
 
       {/* Open Graph */}
@@ -40,7 +40,7 @@ export default function SEO({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
-      <meta property="og:site_name" content="Nexus Creative Systems" />
+      <meta property="og:site_name" content="Not Perfect Solutions" />
       <meta property="og:image" content={fullImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -68,19 +68,19 @@ export default function SEO({
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Nexus Creative Systems',
-  alternateName: 'Nexus Creative',
+  name: 'Not Perfect Solutions',
+  alternateName: 'NPS',
   url: siteUrl,
   logo: `${siteUrl}/images/abstract-shapes.jpg`,
   sameAs: [
-    'https://www.linkedin.com/company/nexuscreative',
-    'https://twitter.com/nexuscreative',
-    'https://github.com/nexuscreative',
-    'https://www.instagram.com/nexuscreative',
+    'https://www.linkedin.com/company/NotPerfectSolutions',
+    'https://twitter.com/NotPerfectSolutions',
+    'https://github.com/NotPerfectSolutions',
+    'https://www.instagram.com/NotPerfectSolutions',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'hello@nexuscreative.systems',
+    email: 'info@notperfectsolutions.com',
     contactType: 'sales',
     availableLanguage: ['English'],
   },
@@ -90,7 +90,7 @@ export const organizationSchema = {
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Nexus Creative Systems',
+  name: 'Not Perfect Solutions,
   url: siteUrl,
   potentialAction: {
     '@type': 'SearchAction',
@@ -107,7 +107,7 @@ export const serviceSchema = (name: string, description: string, url: string) =>
   url,
   provider: {
     '@type': 'Organization',
-    name: 'Nexus Creative Systems',
+    name: 'Not Perfect Solutions',
     url: siteUrl,
   },
 });
@@ -128,12 +128,12 @@ export const articleSchema = (title: string, description: string, url: string, i
   dateModified,
   author: {
     '@type': 'Organization',
-    name: 'Nexus Creative Systems',
+    name: 'Not Perfect Solutions',
     url: siteUrl,
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Nexus Creative Systems',
+    name: 'Not Perfect Solutions',
     logo: {
       '@type': 'ImageObject',
       url: `${siteUrl}/images/abstract-shapes.jpg`,
