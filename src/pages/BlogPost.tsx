@@ -43,14 +43,14 @@ export default function BlogPost() {
       <SEO
         title={post.title}
         description={post.excerpt}
-        keywords={`${post.tags.join(', ')}, nexus creative blog`}
-        url={`https://nexuscreative.systems/blog/${post.slug}`}
+        keywords={`${post.tags.join(', ')}, Not Perfect Solutions blog`}
+        url={`https://NotPerfectSolutions.com/blog/${post.slug}`}
         image={post.coverImage}
         type="article"
         structuredData={articleSchema(
           post.title,
           post.excerpt,
-          `https://nexuscreative.systems/blog/${post.slug}`,
+          `https://NotPerfectSolutions.com/blog/${post.slug}`,
           post.coverImage,
           post.datePublished,
           post.dateModified
