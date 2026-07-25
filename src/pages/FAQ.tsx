@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const faqs = [
   {
-    question: 'What makes Nexus Creative Systems different from other agencies?',
+    question: 'What makes Not Perfect Solutions different from other agencies?',
     answer: 'We are a hybrid agency that combines deep technical engineering with high-end creative execution under one roof. Most agencies specialize in one or the other, forcing clients to manage multiple vendors. We deliver both disciplines with the same standard of excellence, ensuring alignment, speed, and superior outcomes.',
   },
   {
@@ -88,8 +88,8 @@ export default function FAQ() {
     <>
       <SEO
         title="FAQ"
-        description="Find answers to frequently asked questions about Nexus Creative Systems services, pricing, timelines, and working process."
-        keywords="FAQ, frequently asked questions, pricing, timeline, process, nexus creative"
+        description="Find answers to frequently asked questions about Not Perfect Solutions services, pricing, timelines, and working process."
+        keywords="FAQ, frequently asked questions, pricing, timeline, process, Not Perfect Solutions"
         structuredData={faqSchema(faqs)}
       />
 
