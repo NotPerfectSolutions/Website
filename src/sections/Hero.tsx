@@ -103,15 +103,15 @@ export default function Hero() {
       {/* Hero Text Content */}
       <div className="relative text-center px-4">
         <h1 ref={nexusRef} className="font-display font-bold text-white text-glow leading-none tracking-[-0.04em]" style={{ fontSize: 'clamp(4rem, 15vw, 14rem)' }}>
-          {splitText('NEXUS')}
+          {splitText('NOT')}
         </h1>
         
         <div className="flex flex-col items-center -mt-2 md:-mt-6">
           <h2 ref={creativeRef} className="font-display font-medium text-white/90 text-glow leading-none tracking-[-0.02em]" style={{ fontSize: 'clamp(1.8rem, 6vw, 5.5rem)' }}>
-            {splitText('CREATIVE')}
+            {splitText('PERFECT')}
           </h2>
           <h2 ref={systemsRef} className="font-display font-medium text-[#FFB800] text-glow leading-none tracking-[-0.02em] -mt-1 md:-mt-3" style={{ fontSize: 'clamp(1.8rem, 6vw, 5.5rem)' }}>
-            {splitText('SYSTEMS')}
+            {splitText('SOLUTIONS')}
           </h2>
         </div>
 
