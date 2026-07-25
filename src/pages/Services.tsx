@@ -43,7 +43,7 @@ export default function ServicesPage() {
   }, []);
 
   const structuredData = services.map((s) =>
-    serviceSchema(s.title, s.description, `https://nexuscreative.systems/services/${s.slug}`)
+    serviceSchema(s.title, s.description, `https://notperfectsolutions.com/services/${s.slug}`)
   );
 
   return (
