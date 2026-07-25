@@ -53,8 +53,8 @@ export default function About() {
     <>
       <SEO
         title="About Us"
-        description="Learn about Nexus Creative Systems — a strategic execution partner combining custom software development, hardware solutions, web development, brand strategy, video production, and digital marketing."
-        keywords="about nexus creative, technology agency, creative agency, hybrid agency, software company"
+        description="Learn about Not Perfect Solutions — a strategic execution partner combining custom software development, hardware solutions, web development, brand strategy, video production, and digital marketing."
+        keywords="about Not Perfect Solutions, technology agency, creative agency, hybrid agency, software company"
         structuredData={organizationSchema}
       />
 
@@ -66,7 +66,7 @@ export default function About() {
             We Are the<br/><span className="text-white/30">Bridge</span>
           </h1>
           <p className="text-white/50 text-lg lg:text-xl max-w-2xl leading-relaxed">
-            Nexus Creative Systems exists because the world does not need another software shop or another creative agency. It needs a partner that can do both — exceptionally well.
+            Not Perfect Solutions exists because the world does not need another software shop or another creative agency. It needs a partner that can do both — exceptionally well.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export default function About() {
                 Born from a Simple Observation
               </h2>
               <p className="text-white/50 text-base leading-relaxed mb-6">
-                We started Nexus Creative Systems after repeatedly witnessing the same problem: companies forced to manage multiple vendors for what should be a unified vision. Development teams building software without understanding the brand. Creative teams designing experiences that were technically impossible to implement.
+                We started Not Perfect Solutions after repeatedly witnessing the same problem: companies forced to manage multiple vendors for what should be a unified vision. Development teams building software without understanding the brand. Creative teams designing experiences that were technically impossible to implement.
               </p>
               <p className="text-white/50 text-base leading-relaxed mb-6">
                 The result? Wasted budget, missed deadlines, and products that felt disjointed. We believed there was a better way.
