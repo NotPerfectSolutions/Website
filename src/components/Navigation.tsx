@@ -45,7 +45,7 @@ export default function Navigation() {
           to="/"
           className="font-display text-lg font-bold tracking-tight text-white hover:text-[#FFB800] transition-colors"
         >
-          NEXUS<span className="text-[#FFB800]">.</span>
+          NPS<span className="text-[#FFB800]">.</span>
         </Link>
 
         {/* Desktop Nav */}
