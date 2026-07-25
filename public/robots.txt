@@ -3,6 +3,6 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://nexuscreative.systems/sitemap.xml
+Sitemap: https://notperfectsolutions.com/sitemap.xml
 
-Host: https://nexuscreative.systems
+Host: https://notperfectsolutions.com
