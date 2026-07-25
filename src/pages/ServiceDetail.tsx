@@ -41,9 +41,9 @@ export default function ServiceDetail() {
       <SEO
         title={service.title}
         description={service.longDescription}
-        keywords={`${service.tags.join(', ')}, nexus creative, ${service.title.toLowerCase()}`}
-        url={`https://nexuscreative.systems/services/${service.slug}`}
-        structuredData={serviceSchema(service.title, service.longDescription, `https://nexuscreative.systems/services/${service.slug}`)}
+        keywords={`${service.tags.join(', ')}, Not Perfect Solutions, ${service.title.toLowerCase()}`}
+        url={`https://NotPerfectSolutions.com/services/${service.slug}`}
+        structuredData={serviceSchema(service.title, service.longDescription, `https://NotPerfectSolutions.com/services/${service.slug}`)}
       />
 
       <div className="pt-32 lg:pt-40" ref={contentRef}>
