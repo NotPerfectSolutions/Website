@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Nexus Creative Systems"
+        title="Not Perfect Solutions"
         description="Strategic execution partner at the intersection of technology and creativity. Custom software, hardware solutions, web development, brand strategy, video production, and digital marketing."
         keywords="custom software development, web development, hardware IoT solutions, brand strategy, video production, digital marketing, creative agency, technology company"
         structuredData={{ '@context': 'https://schema.org', '@graph': [organizationSchema, websiteSchema] }}
@@ -59,14 +59,14 @@ export default function Home() {
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden" style={{ zIndex: 1 }}>
         <div className="relative text-center px-4">
           <h1 ref={nexusRef} className="font-display font-bold text-white text-glow leading-none tracking-[-0.04em]" style={{ fontSize: 'clamp(4rem, 15vw, 14rem)' }}>
-            {splitText('NEXUS')}
+            {splitText('NOT')}
           </h1>
           <div className="flex flex-col items-center -mt-2 md:-mt-6">
             <h2 ref={creativeRef} className="font-display font-medium text-white/90 text-glow leading-none tracking-[-0.02em]" style={{ fontSize: 'clamp(1.8rem, 6vw, 5.5rem)' }}>
-              {splitText('CREATIVE')}
+              {splitText('PERFECT')}
             </h2>
             <h2 ref={systemsRef} className="font-display font-medium text-[#FFB800] text-glow leading-none tracking-[-0.02em] -mt-1 md:-mt-3" style={{ fontSize: 'clamp(1.8rem, 6vw, 5.5rem)' }}>
-              {splitText('SYSTEMS')}
+              {splitText('SOLUTIONS')}
             </h2>
           </div>
           <p ref={taglineRef} className="mt-8 md:mt-12 text-white/50 text-sm md:text-base tracking-[0.3em] uppercase font-light" style={{ opacity: 0 }}>
