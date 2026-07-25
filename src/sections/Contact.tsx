@@ -81,10 +81,10 @@ export default function Contact() {
                   Email
                 </span>
                 <a
-                  href="mailto:hello@nexuscreative.systems"
+                  href="mailto:info@notperfectsolutions.com"
                   className="text-white hover:text-[#FFB800] transition-colors text-lg"
                 >
-                  hello@nexuscreative.systems
+                  info@notperfectsolutions.com
                 </a>
               </div>
               <div>
