@@ -3,7 +3,7 @@ import gsap from 'gsap';
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const nexusRef = useRef<HTMLHeadingElement>(null);
+  const NpsRef = useRef<HTMLHeadingElement>(null);
   const creativeRef = useRef<HTMLHeadingElement>(null);
   const systemsRef = useRef<HTMLHeadingElement>(null);
   const taglineRef = useRef<HTMLParagraphElement>(null);
@@ -12,9 +12,9 @@ export default function Hero() {
   useEffect(() => {
     const tl = gsap.timeline({ delay: 0.3 });
 
-    // Animate NEXUS letters
-    if (nexusRef.current) {
-      const letters = nexusRef.current.querySelectorAll('.letter');
+    // Animate Nps letters
+    if (NpsRef.current) {
+      const letters = NpsRef.current.querySelectorAll('.letter');
       tl.fromTo(
         letters,
         { y: 120, opacity: 0, filter: 'blur(10px)' },
@@ -102,7 +102,7 @@ export default function Hero() {
     >
       {/* Hero Text Content */}
       <div className="relative text-center px-4">
-        <h1 ref={nexusRef} className="font-display font-bold text-white text-glow leading-none tracking-[-0.04em]" style={{ fontSize: 'clamp(4rem, 15vw, 14rem)' }}>
+        <h1 ref={NpsRef} className="font-display font-bold text-white text-glow leading-none tracking-[-0.04em]" style={{ fontSize: 'clamp(4rem, 15vw, 14rem)' }}>
           {splitText('NOT')}
         </h1>
         

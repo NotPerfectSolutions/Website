@@ -8,7 +8,7 @@ import EventHorizon from '../components/EventHorizon';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
-  const nexusRef = useRef<HTMLHeadingElement>(null);
+  const NpsRef = useRef<HTMLHeadingElement>(null);
   const creativeRef = useRef<HTMLHeadingElement>(null);
   const systemsRef = useRef<HTMLHeadingElement>(null);
   const taglineRef = useRef<HTMLParagraphElement>(null);
@@ -17,8 +17,8 @@ export default function Home() {
   useEffect(() => {
     const tl = gsap.timeline({ delay: 0.3 });
 
-    if (nexusRef.current) {
-      const letters = nexusRef.current.querySelectorAll('.letter');
+    if (NpsRef.current) {
+      const letters = NpsRef.current.querySelectorAll('.letter');
       tl.fromTo(letters, { y: 120, opacity: 0, filter: 'blur(10px)' }, { y: 0, opacity: 1, filter: 'blur(0px)', duration: 1.2, stagger: 0.08, ease: 'power4.out' }, 0);
     }
 
@@ -58,7 +58,7 @@ export default function Home() {
       {/* Hero */}
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden" style={{ zIndex: 1 }}>
         <div className="relative text-center px-4">
-          <h1 ref={nexusRef} className="font-display font-bold text-white text-glow leading-none tracking-[-0.04em]" style={{ fontSize: 'clamp(4rem, 15vw, 14rem)' }}>
+          <h1 ref={NpsRef} className="font-display font-bold text-white text-glow leading-none tracking-[-0.04em]" style={{ fontSize: 'clamp(4rem, 15vw, 14rem)' }}>
             {splitText('NOT')}
           </h1>
           <div className="flex flex-col items-center -mt-2 md:-mt-6">
